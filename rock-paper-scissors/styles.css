@@ -1,0 +1,125 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #01162E;
+    color: #00FFC2;
+}
+
+.logo {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.visualization {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visualization div {
+    width: 33.33%;
+    text-align: center;
+}
+
+.vs {
+    font-size: 48px
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    flex-direction: column;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    margin: 25px 10px;
+    color: #00FFC2;
+    background-color: transparent;
+    border: 5px solid #00FFC2;
+    border-radius: 5px;
+}
+
+
+.buttons button:hover {
+    margin: 25px 10px;
+    color: #FF5394;
+    border-color: #FF5394;
+    cursor: pointer;
+}
+
+button svg {
+    height: 200px;
+    width: 200px;
+}
+
+#scissors svg {
+    height: 160px;
+    width: 160px;
+}
+
+#scissors {
+    padding: 23.5px;
+}
+
+#tryAgain button {
+    color: #00FFC2;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 5px solid #00FFC2;
+    padding: 20px 40px;
+    margin: 25px 10px;
+}
+
+#tryAgain button:hover {
+    color: #FF5394;
+    border-color: #FF5394;
+    cursor: pointer;
+}
+
+#tryAgain button a {
+    text-decoration: none;
+    color: #00FFC2;
+}
+
+#tryAgain button:hover a {
+    color: #FF5394;
+}
