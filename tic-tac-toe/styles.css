@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Recursive', sans-serif;
+    background-color: #01162E;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    flex-direction: column;
+}
+
+h1 {
+    color: #00FFC2;
+}
+
+h2 {
+    color: #00FFC2;
+}
+
+#game {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 3em;
+}
+
+#winner-container {
+    margin-top: 2em;
+}
+
+#play-again {
+    width: 100%;
+    margin-top: 1em;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    background-color: #00FFC2;
+    border: none;
+    font-size: 2em;
+    color: #FF3B85;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[data-index="0"] {
+    border-right: 3px solid #FF3B85;
+    border-bottom: 3px solid #FF3B85;
+}
+
+button[data-index="1"] {
+    border-left: 3px solid #FF3B85;
+    border-bottom: 3px solid #FF3B85;
+    border-right: 3px solid #FF3B85;
+}
+
+button[data-index="2"] {
+    border-left: 3px solid #FF3B85;
+    border-bottom: 3px solid #FF3B85;
+}
+
+button[data-index="3"] {
+    border-top: 3px solid #FF3B85;
+    border-right: 3px solid #FF3B85;
+    border-bottom: 3px solid #FF3B85;
+}
+
+button[data-index="4"] {
+    border-top: 3px solid #FF3B85;
+    border-right: 3px solid #FF3B85;
+    border-left: 3px solid #FF3B85;
+    border-bottom: 3px solid #FF3B85;
+}
+
+button[data-index="5"] {
+    border-top: 3px solid #FF3B85;
+    border-left: 3px solid #FF3B85;
+    border-bottom: 3px solid #FF3B85;
+}
+
+button[data-index="6"] {
+    border-top: 3px solid #FF3B85;
+    border-right: 3px solid #FF3B85;
+}
+
+button[data-index="7"] {
+    border-top: 3px solid #FF3B85;
+    border-right: 3px solid #FF3B85;
+    border-left: 3px solid #FF3B85;
+}
+
+button[data-index="8"] {
+    border-top: 3px solid #FF3B85;
+    border-left: 3px solid #FF3B85;
+}
+
+svg {
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+}
