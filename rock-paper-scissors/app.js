@@ -82,6 +82,6 @@ const endGame = () => {
 
     tryAgain = document.getElementById('tryAgain');
     tryAgainButton = document.createElement('button');
-    tryAgainButton.innerHTML = "<a href='http://127.0.0.1:5500'>Try again</a>"
+    tryAgainButton.innerHTML = "<a href='https://s0rus.github.io/THE-ODIN-PROJECT/rock-paper-scissors/'>Try again</a>"
     tryAgain.append(tryAgainButton);
 }
