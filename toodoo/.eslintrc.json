@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "no-restricted-globals": "off",
+    "no-param-reassign": "off",
+    "implicit-arrow-linebreak": "off",
+    "function-paren-newline": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "line-break-style": "off",
+    "operator-linebreak": "off"
+  }
+}

@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Recursive', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #01162e;
+  color: #00ffc2;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#navigation {
+  background-color: #00ffc2;
+  color: #01162e;
+  width: 20vw;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+#navigation h1 {
+  font-size: 2em;
+}
+
+#navigation h2 {
+  margin-top: 2em;
+}
+
+svg {
+  margin: 0 auto;
+}
+
+#new-project {
+  margin-top: 2em;
+  color: #01162e;
+  background-color: #ff3b85;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+
+#new-project[active] {
+  background-color: #01162e;
+  color: #00ffc2;
+}
+
+#new-project[active]:hover {
+  background-color: #041d3a;
+}
+
+#new-project:hover {
+  background-color: #ff5f9d;
+}
+
+#new-project-form[active] {
+  background-color: #ff3b85;
+  padding: 1em;
+  text-align: left;
+}
+
+#new-project-form[active] #new-project-name,
+#new-task-name {
+  width: 100%;
+  background-color: #01162e;
+  color: #00ffc2;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+}
+
+#new-project-form[active] #new-project-create,
+#new-task-create {
+  background-color: #01162e;
+  color: #00ffc2;
+  padding: 0.5em 2em;
+  border: none;
+  cursor: pointer;
+  margin-top: 1em;
+  width: 100%;
+  transition: 0.2s;
+}
+
+#new-project-form[active] #new-project-create:hover,
+#new-task-create:hover {
+  background-color: #041d3a;
+}
+
+.project {
+  background-color: #01162e;
+  color: #00ffc2;
+  cursor: pointer;
+  padding: 1em 2em;
+  margin-top: 0.5em;
+  transition: 0.2s;
+}
+
+.project:hover {
+  background-color: #041d3a;
+}
+
+#todo-content {
+  width: 80vw;
+}
+
+#todo-content h1 {
+  font-size: 2em;
+  background-color: #ff3b85;
+  color: #00ffc2;
+  padding: 1em 4em;
+  min-height: 17vh;
+}
+
+#task-list {
+  padding: 1.5em 8em 0em 8em;
+}
+
+#task-list #add-task {
+  width: 100%;
+  background-color: #00ffc2;
+  border: 0;
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+#task-list #add-task[active] {
+  background-color: #ff3b85;
+  color: #00ffc2;
+}
+
+#task-list #add-task[active]:hover {
+  background-color: #ff5f9d;
+}
+
+#new-task-form[active] {
+  background-color: #00ffc2;
+  padding: 1em 2em;
+  color: #01162e;
+}
+
+#task-list #add-task:hover {
+  background-color: #00e9b2;
+}
+
+.task {
+  background-color: #00ffc2;
+  color: #01162e;
+  padding: 0.5em 2em;
+  margin: 0.5em 0;
+  display: flex;
+  align-items: center;
+}
+
+.task h3 {
+  margin-left: 1em;
+  font-size: 1.2em;
+}
+
+.task button {
+  border: 2px solid #ff3b85;
+  background-color: transparent;
+  color: #ff3b85;
+  padding: 0.1em 0.4em;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #ff3b85;
+  color: #041d3a;
+  border-color: #041d3a;
+}
+
+#delete-task {
+  display: block;
+  background-color: #00ffc2;
+  border: none;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+}
+
+#delete-task:hover {
+  background-color: #00e9b2;
+  cursor: pointer;
+}
