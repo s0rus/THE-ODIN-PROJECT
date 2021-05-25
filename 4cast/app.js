@@ -11,7 +11,7 @@ const createElement = (element, nameClass, content) => {
 const getWeather = async (query) => {
   try {
     const URL = `${BASE_URL}q=${query}&appid=f9475d8236b76b482833d3d6b22d3c9f`;
-    const response = await fetch(URL);
+    const response = await fetch(URL, { mode: 'cors' });
     const weatherData = await response.json();
     const temperatures = weatherData.main;
     const { weather } = weatherData.weather;
