@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Recursive', sans-serif;
+  font-size: 16px;
+  color: #00ffc2;
+}
+
+body {
+  background-color: #01162e;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+nav h1 {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+#search-input {
+  border: none;
+  background-color: #ff3b85;
+  color: #00ffc2;
+  padding: 0.5em;
+}
+
+#search-button {
+  padding: 0.42em;
+  background-color: #00ffc2;
+  border: none;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #00b88d;
+}
+
+#switch-container {
+  display: flex;
+  align-items: center;
+}
+
+#switch-container .degrees {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+.location {
+  font-size: 3em;
+  background-color: #ff3b85;
+  display: inline-block;
+  padding: 0.4em;
+}
+
+.temperature {
+  font-size: 9em;
+}
+
+.info {
+  font-weight: normal;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20em;
+  flex-direction: column;
+  padding-left: 20em;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff3b85;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 16px;
+  width: 16px;
+  left: 7px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #00ffc2;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+svg {
+  position: absolute;
+  left: 1.5em;
+  top: 1.5em;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #00ffc2;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #00ffc2;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #00ffc2;
+}
