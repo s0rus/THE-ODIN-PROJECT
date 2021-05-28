@@ -1,7 +1,7 @@
 const Logo = () => {
   return (
     <a
-      href='https://github.com/s0rus/THE-ODIN-PROJECT/memory-game'
+      href='https://github.com/s0rus/THE-ODIN-PROJECT/tree/main/memory-game'
       rel='noreferrer'
       target='_blank'
     >
