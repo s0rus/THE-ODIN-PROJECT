@@ -1,0 +1,15 @@
+.card--wrapper {
+  background-color: #00ffc2;
+  color: #ff3b85;
+  font-weight: 700;
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card--wrapper:hover {
+  background-color: #ff3b85;
+  color: #00ffc2;
+}

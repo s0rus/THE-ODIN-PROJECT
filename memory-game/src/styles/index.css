@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Recursive', sans-serif;
+  background-color: #01162e;
+  color: #00ffc2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

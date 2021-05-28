@@ -1,0 +1,13 @@
+.card--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.loader {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10em;
+}
