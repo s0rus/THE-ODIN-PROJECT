@@ -1,0 +1,5 @@
+- [] product
+  - [] name
+  - [] image-src
+  - [] quantity
+  - [] price
