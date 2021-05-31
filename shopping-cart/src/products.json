@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "MK x Ducky",
+    "price": 49,
+    "quantity": 1,
+    "img": "https://mechanicalkeyboards.com/shop/images/products/large_DKSA108-USPDZZZOF_3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kara keycaps",
+    "price": 150,
+    "quantity": 1,
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.cvpIpSvuWLr2RVWU-wd76wHaE8%26pid%3DApi&f=1"
+  },
+  {
+    "id": 3,
+    "name": "Sunshine",
+    "price": 85,
+    "quantity": 1,
+    "img": "https://mechanicalkeyboards.com/shop/images/products/large_C02RB601_main.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Miami",
+    "price": 56,
+    "quantity": 1,
+    "img": "https://mechanicalkeyboards.com/shop/images/products/large_C22BU201_main.jpg"
+  },
+  {
+    "id": 5,
+    "name": "PBT Pudding",
+    "price": 99,
+    "quantity": 1,
+    "img": "https://mechanicalkeyboards.com/shop/images/products/large_DKSA108-USPDAWN02_main.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Hawaii",
+    "price": 49,
+    "quantity": 1,
+    "img": "https://mechanicalkeyboards.com/shop/images/products/large_C0RB602_main.jpg"
+  }
+]

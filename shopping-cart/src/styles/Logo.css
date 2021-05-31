@@ -1,0 +1,10 @@
+.logo--container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 60px;
+  height: 60px;
+  color: #00ffc2;
+  font-weight: 700;
+  background-color: #ff3b85;
+  text-align: center;
+}

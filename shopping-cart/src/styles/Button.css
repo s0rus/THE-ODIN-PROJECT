@@ -1,0 +1,39 @@
+.button--container {
+  position: relative;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  color: #00ffc2;
+  cursor: pointer;
+  display: inline;
+  font-size: 2vmin;
+  transition: 0.2s;
+}
+
+.button--container:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -0.2rem;
+  left: -0.2rem;
+  border: 3px solid #ff3b85;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.button--container:hover {
+  color: #ff3b85;
+  background-color: #00ffc2;
+  font-weight: 700;
+}
+
+.button--container:hover::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0.2rem;
+  left: 0.2rem;
+  border: 3px solid #ff3b85;
+  width: 100%;
+  height: 100%;
+}

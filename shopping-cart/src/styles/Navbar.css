@@ -1,0 +1,16 @@
+.navbar--container {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 10vh;
+}
+
+.navbar--links {
+  display: flex;
+}
+
+.navbar--links a {
+  margin: 0 2rem;
+}

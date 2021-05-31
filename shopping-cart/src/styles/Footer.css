@@ -1,0 +1,8 @@
+.footer--container {
+  background-color: #ff3b85;
+  color: #00ffc2;
+  text-align: center;
+  min-height: 10vh;
+  font-size: 2vmin;
+  padding: 1em;
+}
