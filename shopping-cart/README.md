@@ -1,4 +1,4 @@
-# Final Space memory game
+# Shopping cart
 
 Simple shopping cart created while going through 'The Oding Project'.
 It uses react-router-dom and react hooks including useContext.
