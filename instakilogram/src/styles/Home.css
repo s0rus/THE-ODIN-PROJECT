@@ -1,0 +1,172 @@
+.home--page {
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.home--page--content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.home--info {
+  padding-left: 2rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  display: flex;
+  z-index: 1 !important;
+  width: 25%;
+}
+
+.home--info--content {
+  position: fixed;
+  width: 20%;
+}
+
+.home--root {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home--photo--content {
+  margin: 2rem 0;
+  width: 700px;
+}
+
+.home--photo--title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid var(--lighten);
+}
+
+.home--photo--info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  border: 1px solid var(--lighten);
+}
+
+.home--photo--info p {
+  color: var(--darken);
+}
+
+.home--photo--title h1 {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.home--photo--title a {
+  color: #000;
+}
+
+.home--photo--title a:hover {
+  text-decoration: underline;
+}
+
+.home--photo--avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.home--photo--container {
+  min-width: 100%;
+  min-height: 700px;
+  max-height: 700px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.home--photo--container img {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.home--info--current--user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home--info--current--user img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid var(--lighten);
+}
+
+.current--user--info {
+  margin-left: 1.5rem;
+}
+
+.current--user--info a {
+  color: #000;
+}
+
+.current--user--info h1 {
+  font-size: 1rem;
+  margin-top: 0.2rem;
+}
+
+.current--user--info--name {
+  color: var(--darken);
+  font-weight: normal;
+}
+
+.home--disclaimer {
+  padding: 2rem 0.5rem;
+  font-size: 0.6rem;
+  text-align: left;
+}
+
+.home--disclaimer--content {
+  color: var(--darken);
+}
+
+.home--nofollowers--disclaimer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.home--nofollowers--disclaimer p {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .home--root {
+    display: flex;
+    padding-left: 0;
+  }
+
+  .home--info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home--photo--content {
+    width: 350px;
+  }
+
+  .home--photo--container {
+    min-width: 100%;
+    min-height: 350px;
+    max-height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+}

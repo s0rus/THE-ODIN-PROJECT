@@ -4,5 +4,8 @@ Simple shopping cart created while going through 'The Oding Project'.
 It uses react-router-dom and react hooks including useContext.
 
 # [LIVE DEMO](https://important-shop.netlify.app/)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 241397e456b5fba8ec6e946e5cd7fd1ceaf5b0e0

@@ -1,0 +1,177 @@
+.navbar--container {
+  width: 100%;
+  min-height: 50px;
+  background-color: #fff;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid var(--lighten);
+  position: fixed;
+  top: 0;
+  z-index: 999 !important;
+}
+
+.navbar--logo {
+  font-family: 'Dancing Script', cursive;
+  color: #000000;
+}
+
+.navbar--explore--container {
+  color: #000000;
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  border: 1px solid var(--darken);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar--explore--container p {
+  margin-left: 0.5rem;
+}
+
+.explore--mobile {
+  display: none;
+}
+
+.navbar--icon--nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.navbar--home--icon,
+.navbar--explore--icon {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.navbar--user--icon {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  margin: 0 1rem;
+  border-radius: 50%;
+  border: 1px solid var(--lighten);
+}
+
+.user--icon-stroked {
+  border: 2px solid #000000;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+.navbar--icon--nav a,
+.navbar--profile--modal--container {
+  max-height: 36px;
+}
+
+.navbar--profile--modal--container {
+  position: relative;
+  width: 100%;
+}
+
+.navbar--profile--modal {
+  position: absolute;
+  top: 50px;
+  left: -200px;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px var(--lighten);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding-bottom: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.navbar--profile--modal a .modal--item {
+  width: 100%;
+  color: #000000;
+  font-weight: normal;
+}
+
+.navbar--profile--modal a .modal--item:hover {
+  background-color: unset;
+}
+
+.navbar--profile--modal a {
+  width: 100%;
+  color: #000000;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0.45rem;
+  padding: 1.5rem 0 1.5rem 1rem;
+}
+
+.navbar--profile--modal a:first-child {
+  margin-top: 1rem;
+}
+
+.modal--item {
+  width: 100%;
+  min-height: 100%;
+  padding: 0.55rem;
+}
+
+.modal--item:hover,
+.navbar--profile--modal a:hover {
+  background-color: #e4f5ff;
+}
+
+.modal--logout--link {
+  border-top: 2px solid var(--lighten);
+  cursor: pointer;
+  padding-left: 1.4rem;
+}
+
+.navbar--profile--modal--tick {
+  position: absolute;
+  content: '';
+  top: -5px;
+  left: 76%;
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
+  display: block;
+  transform: rotate(45deg);
+  box-shadow: 0 -5px 8px -5px var(--lighten), -5px 0 5px -5px var(--lighten);
+  z-index: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar--container {
+    padding: 1rem 0.5rem;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .navbar--logo {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar--explore {
+    display: none;
+  }
+
+  .explore--mobile {
+    display: inherit;
+  }
+
+  .navbar--home--icon,
+  .navbar--explore--icon {
+    margin: 0 0.5rem;
+  }
+}
